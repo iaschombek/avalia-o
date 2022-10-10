@@ -1,23 +1,20 @@
 body{
 background-color: 	#E0FFFF
 }
-
-.abas{
-  font-size: 27px;
-  font-family: cursive;
-background-color: #04bbfc;
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
 }
-
-
-#clá{
-  border: 2px solid #80caf2; background: #0ccaba
-
+nav a{
+  text-transform: uppercase;
+color: #000000;
+font-weight: bolder;
+font-size: 22px;
+text-decoration: none;
 }
-#fant{
-border: 2px solid #80caf2; background: #0ccaba
-}
-#séries{
-  border: 2px solid #80caf2; background: #0ccaba
+#logo{
+  width: 120px !important;
+  height: 120px !important;
 }
 
 #Booksite{
@@ -30,7 +27,9 @@ header{
 h1{
   text-align: center; color: #C71585;
   font-family: OCR A Std, monospace;
-  font-size: 60px; color:#C71585
+  font-size: 60px; color:#C71585;
+  display: inline-block;
+
 }
 
 p{
